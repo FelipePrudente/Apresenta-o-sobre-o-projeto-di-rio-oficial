@@ -1,0 +1,279 @@
+{
+  "gerado_em": "2026-07-30",
+  "periodos": {
+    "legado_2020_2021": {
+      "fonte": "Imprensa Oficial (acervo legado) - sumarios Empresarial",
+      "metodo": "Parse de sumarios PDF via GatewayPDF; varredura dia a dia fev-jun",
+      "total": 4446,
+      "empresas": 3384,
+      "por_ano": {
+        "2020": 2102,
+        "2021": 2344
+      },
+      "por_mes": {
+        "2020-02": 164,
+        "2020-03": 335,
+        "2020-04": 637,
+        "2020-05": 414,
+        "2020-06": 551,
+        "2020-08": 1,
+        "2021-02": 133,
+        "2021-03": 466,
+        "2021-04": 928,
+        "2021-05": 479,
+        "2021-06": 338
+      },
+      "familias": {
+        "BALANCO": 4397,
+        "DEMONSTRACOES FINANCEIRAS": 32,
+        "DEMONSTRACOES CONTABEIS": 14,
+        "BALANCO PATRIMONIAL": 3
+      },
+      "amostra": [
+        {
+          "date": "2020-02-01",
+          "name": "BANCO SANTANDER (BRASIL) S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-01",
+          "name": "BERG STEEL S.A FABRICA BRASILEIRA DE FERRAMENTAS",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-04",
+          "name": "REC RESI I PARTICIPAÇÕES S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-04",
+          "name": "REC2017 EMPREEND. E PARTICIPAÇÕES IV LTDA",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-04",
+          "name": "SERVTEC BONS VENTOS MORRO DO CHAPEU S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-06",
+          "name": "BANCO DAYCOVAL S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-06",
+          "name": "BR PROPERTIES S/A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-06",
+          "name": "BRPR56 SECURITIZADORA DE CRÉDITOS IMOB.S S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-06",
+          "name": "DAYCOVAL LEASING - BANCO MULTIPLO S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-06",
+          "name": "RB CAPITAL COMMERCIAL PROPERTIES S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-06",
+          "name": "RB CAPITAL REALTY ONE EMPREEND. IMOB. S.A",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2020-02-07",
+          "name": "BANCO ABC BRASIL S.A",
+          "title": "BALANÇO"
+        }
+      ],
+      "top_empresas": [
+        [
+          "FINANCIAMENTO E INVESTIMENTO",
+          5
+        ],
+        [
+          "BERG STEEL S.A FABRICA BRASILEIRA DE FERRAMENTAS",
+          3
+        ],
+        [
+          "FBV PARTICIPAÇOES S/A",
+          3
+        ],
+        [
+          "IOCHPE MAXION SA",
+          3
+        ],
+        [
+          "HELBOR EMPREEND. S.A",
+          3
+        ],
+        [
+          "REFINARIA NACIONAL DE SAL S/A",
+          3
+        ],
+        [
+          "UNIVERSO ONLINE S/A",
+          3
+        ],
+        [
+          "DAE SA - AGUA E ESGOTO DE JUNDIAÍ",
+          3
+        ],
+        [
+          "FUNDACAO ADIB JATENE",
+          3
+        ],
+        [
+          "VERO S.A",
+          3
+        ]
+      ]
+    },
+    "digital_2025_2026": {
+      "fonte": "API doe.sp.gov.br v2/summary/structured - Atos Empresariais",
+      "metodo": "Filtro de title com balanco/demonstracoes; name=entidade publicante",
+      "periodo": "2025-01-01 a 2026-07-30",
+      "total": 496,
+      "empresas": 285,
+      "por_ano": {
+        "2025": 272,
+        "2026": 224
+      },
+      "por_mes": {
+        "2025-02": 5,
+        "2025-03": 65,
+        "2025-04": 116,
+        "2025-05": 30,
+        "2025-06": 20,
+        "2025-07": 17,
+        "2025-08": 6,
+        "2025-09": 4,
+        "2025-10": 2,
+        "2025-11": 4,
+        "2025-12": 3,
+        "2026-01": 4,
+        "2026-02": 9,
+        "2026-03": 52,
+        "2026-04": 122,
+        "2026-05": 15,
+        "2026-06": 13,
+        "2026-07": 9
+      },
+      "familias": {
+        "BALANCO": 152,
+        "BALANCO PATRIMONIAL": 114,
+        "DEMONSTRACOES FINANCEIRAS": 192,
+        "DEMONSTRACOES CONTABEIS": 38
+      },
+      "amostra": [
+        {
+          "date": "2025-02-25",
+          "name": "PRODUTOS ALIMENTÍCIOS ORLÂNDIA S/A COMÉRCIO E INDÚSTRIA",
+          "title": "BALANÇO PRODUTOS ALIMENTICIOS ORLANDIA"
+        },
+        {
+          "date": "2025-02-25",
+          "name": "PRODUTOS ALIMENTÍCIOS ORLÂNDIA S/A COMÉRCIO E INDÚSTRIA",
+          "title": "BALANÇO PRODUTOS ALIMENTÍCIOS ORLÂNDIA"
+        },
+        {
+          "date": "2025-02-26",
+          "name": "CARBON ASSET MANAGEMENT LTDA.",
+          "title": "BALANÇO PATRIMONIAL"
+        },
+        {
+          "date": "2025-02-27",
+          "name": "LBG BRASIL ADMINISTRAÇÃO LTDA.",
+          "title": "DEMONSTRAÇÕES FINANCEIRAS - EXERCÍCIOS FINDOS EM 31 DE DEZEMBRO DE 2024 E 2023"
+        },
+        {
+          "date": "2025-02-28",
+          "name": "CRIART ASSESSORIA DE COMUNICAÇÃO LTDA",
+          "title": "DEMONSTRAÇÕES CONTÁBEIS"
+        },
+        {
+          "date": "2025-03-05",
+          "name": "MORADA DO SOL TURISMO, EVENTOS E PARTCICIPAÇÕES S/A",
+          "title": "DEMONSTRAÇÕES CONTÁBEIS DOS EXERCÍCIOS FINDOS EM 31/12/2024 E 2023 (EM REAIS)"
+        },
+        {
+          "date": "2025-03-05",
+          "name": "BANCO DE OLHOS DE SOROCABA",
+          "title": "RELATÓRIO DOS AUDITORES INDEPENDENTES E AS DEMONSTRAÇÕES FINANCEIRAS "
+        },
+        {
+          "date": "2025-03-07",
+          "name": "ITATUBA PARTICIPAÇÕES LTDA.",
+          "title": "BALANÇO PATRIMONIAL"
+        },
+        {
+          "date": "2025-03-11",
+          "name": "COLÉGIO BRASIL-EUROPA S.A.",
+          "title": "DEMONSTRAÇÕES FINANCEIRAS"
+        },
+        {
+          "date": "2025-03-11",
+          "name": "SANTA CASA DE MISERICÓRDIA DE VOTUPORANGA",
+          "title": "BALANÇO"
+        },
+        {
+          "date": "2025-03-11",
+          "name": "INSTITUTO DE PRESERVAÇÃO E DIFUSÃO DA HISTÓRIA DO CAFÉ E DA IMIGRAÇÃO",
+          "title": "DEMONSTRAÇÕES CONTÁBEIS DO INSTITUTO DE PRESERVAÇÃO E DIFUSÃO DA HISTÓRIA DO CAFÉ E DA IMIGRAÇÃO"
+        },
+        {
+          "date": "2025-03-11",
+          "name": "POIESIS - INSTITUTO DE APOIO À CULTURA, À LÍNGUA E À LITERATURA",
+          "title": "POIESIS - INSTITUTO DE APOIO À CULTURA, À LÍNGUA E À LITERATURA - DEMONSTRAÇÕES FINANCEIRAS 2024"
+        }
+      ],
+      "top_empresas": [
+        [
+          "SOCIEDADE BRASILEIRA CAMINHO DE DAMASCO",
+          11
+        ],
+        [
+          "ASSOCIAÇÃO PINACOTECA ARTE E CULTURA – APAC",
+          4
+        ],
+        [
+          "ASSOCIAÇÃO DE CULTURA, EDUCAÇÃO E ASSISTÊNCIA SOCIAL SANTA MARCELINA (ESCOLA DE MÚSICA DO ESTADO DE",
+          4
+        ],
+        [
+          "ASSOCIAÇÃO DE CULTURA, EDUCAÇÃO E ASSISTÊNCIA SOCIAL SANTA MARCELINA",
+          4
+        ],
+        [
+          "INSTITUTO NACIONAL DE TECNOLOGIA E SAUDE – INTS – MOGI DAS CRUZES – SAMU MOGI – CTR Nº 01/2019",
+          4
+        ],
+        [
+          "ACCIONA CONSTRUCCÍON, S.A.U.",
+          4
+        ],
+        [
+          "SACYR CONSTRUCCION S.A.",
+          4
+        ],
+        [
+          "SERVIÇO SOCIAL DA CONSTRUÇÃO CIVIL DO ESTADO DE SÃO PAULO -SECONCI-SP",
+          4
+        ],
+        [
+          "IMED - INSTITUTO DE MEDICINA ESTUDOS E DESENVOLVIMENTO",
+          4
+        ],
+        [
+          "ASSOCIACAO PRO-DANCA",
+          3
+        ]
+      ]
+    }
+  }
+}

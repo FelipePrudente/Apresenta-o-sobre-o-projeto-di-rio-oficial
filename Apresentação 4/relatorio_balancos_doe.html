@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Briefing de Investimento — Solução de Diagramação e Publicação Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --ink: #0f1c2e;
+      --ink-soft: #2a3d55;
+      --paper: #f3efe6;
+      --card: rgba(255, 252, 246, 0.9);
+      --line: rgba(15, 28, 46, 0.12);
+      --accent: #0d6e6e;
+      --accent-2: #c45c26;
+      --shadow: 0 18px 50px rgba(15, 28, 46, 0.08);
+      --radius: 18px;
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Public Sans", system-ui, sans-serif;
+      background:
+        radial-gradient(1100px 560px at 8% -8%, rgba(13, 110, 110, 0.16), transparent 55%),
+        radial-gradient(900px 480px at 100% 0%, rgba(196, 92, 38, 0.11), transparent 48%),
+        linear-gradient(180deg, #e8e1d3 0%, var(--paper) 30%, #f7f3ea 100%);
+      min-height: 100vh;
+    }
+    .wrap { width: min(100% - 2rem, var(--max)); margin-inline: auto; }
+
+    .hero {
+      padding: 3rem 0 2.2rem;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto -8% -45% 42%;
+      height: 260px;
+      background: repeating-linear-gradient(-18deg, transparent, transparent 12px, rgba(15,28,46,.035) 12px, rgba(15,28,46,.035) 13px);
+      pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: .5rem;
+      font-size: .76rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: .9rem;
+    }
+    .eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(13,110,110,.15); }
+    .brand {
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(1.9rem, 4.6vw, 3.1rem);
+      font-weight: 700; line-height: 1.08; letter-spacing: -.02em;
+      margin: 0 0 .85rem; max-width: 18ch;
+    }
+    .lede {
+      font-size: 1.05rem; line-height: 1.55; color: var(--ink-soft);
+      max-width: 62ch; margin: 0 0 1.4rem;
+    }
+    .meta-row {
+      display: flex; flex-wrap: wrap; gap: .55rem 1.2rem;
+      font-size: .88rem; color: var(--ink-soft);
+    }
+    .meta-row strong { color: var(--ink); }
+
+    .toc {
+      position: sticky; top: 0; z-index: 20;
+      backdrop-filter: blur(10px);
+      background: rgba(243,239,230,.84);
+      border-bottom: 1px solid var(--line);
+    }
+    .toc ul {
+      list-style: none; display: flex; gap: .2rem; overflow-x: auto;
+      margin: 0; padding: .65rem 0;
+    }
+    .toc a {
+      display: block; white-space: nowrap; text-decoration: none;
+      color: var(--ink-soft); font-size: .84rem; font-weight: 600;
+      padding: .42rem .78rem; border-radius: 999px;
+    }
+    .toc a:hover { background: rgba(15,28,46,.06); color: var(--ink); }
+
+    section { padding: 2.6rem 0 1rem; }
+    h2 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(1.45rem, 2.8vw, 1.95rem);
+      margin: 0 0 .5rem; letter-spacing: -.01em;
+    }
+    h3 { margin: 0 0 .55rem; font-size: 1.02rem; }
+    .section-lead {
+      color: var(--ink-soft); max-width: 68ch; margin: 0 0 1.45rem; line-height: 1.55;
+    }
+
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 1rem; }
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 900px) {
+      .grid-4, .grid-3, .split, .compare { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 620px) {
+      .grid-4, .grid-3, .split, .compare { grid-template-columns: 1fr; }
+    }
+
+    .stat, .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .stat { padding: 1.1rem 1.15rem 1.2rem; }
+    .panel { padding: 1.25rem 1.3rem 1.4rem; }
+    .stat .label {
+      font-size: .74rem; font-weight: 700; letter-spacing: .05em;
+      text-transform: uppercase; color: var(--ink-soft); margin-bottom: .4rem;
+    }
+    .stat .value {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.85rem; font-weight: 700; line-height: 1; margin-bottom: .35rem;
+    }
+    .stat .hint { font-size: .84rem; color: var(--ink-soft); line-height: 1.4; }
+
+    .pill {
+      display: inline-block; font-size: .72rem; font-weight: 700;
+      padding: .18rem .55rem; border-radius: 999px;
+      background: rgba(13,110,110,.12); color: var(--accent); margin-bottom: .55rem;
+    }
+    .pill.warm { background: rgba(196,92,38,.12); color: var(--accent-2); }
+    .pill.ink { background: rgba(15,28,46,.1); color: var(--ink); }
+
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: rgba(13,110,110,.07);
+      padding: 1rem 1.1rem; border-radius: 0 var(--radius) var(--radius) 0;
+      margin: 1.15rem 0; line-height: 1.5;
+    }
+    .callout.warm {
+      border-left-color: var(--accent-2);
+      background: rgba(196,92,38,.08);
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: .7rem;
+      margin-top: .4rem;
+    }
+    @media (max-width: 900px) { .flow { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 560px) { .flow { grid-template-columns: 1fr; } }
+    .flow-step {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: .95rem .9rem;
+      position: relative;
+    }
+    .flow-step b {
+      display: block; font-size: .78rem; letter-spacing: .04em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: .35rem;
+    }
+    .flow-step p { margin: 0; font-size: .9rem; color: var(--ink-soft); line-height: 1.4; }
+
+    .tabs {
+      display: inline-flex; gap: .3rem; background: rgba(15,28,46,.05);
+      padding: .28rem; border-radius: 999px; margin-bottom: 1rem;
+    }
+    .tabs button {
+      border: 0; background: transparent; font: inherit; font-size: .85rem;
+      font-weight: 600; color: var(--ink-soft); padding: .48rem .9rem;
+      border-radius: 999px; cursor: pointer;
+    }
+    .tabs button.active { background: var(--ink); color: #f7f3ea; }
+
+    .chart-box { position: relative; height: 300px; }
+    .chart-box.sm { height: 260px; }
+
+    table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    th, td { text-align: left; padding: .68rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-soft); }
+
+    .kv { display: grid; gap: .5rem; }
+    .kv div {
+      display: flex; justify-content: space-between; gap: 1rem;
+      padding-bottom: .4rem; border-bottom: 1px dashed var(--line); font-size: .92rem;
+    }
+    .kv span { color: var(--ink-soft); }
+    .kv b { font-variant-numeric: tabular-nums; }
+
+    .checklist { list-style: none; margin: 0; padding: 0; display: grid; gap: .65rem; }
+    .checklist li {
+      display: grid; grid-template-columns: auto 1fr; gap: .7rem; align-items: start;
+      padding: .85rem .95rem; border: 1px solid var(--line); border-radius: 14px; background: var(--card);
+    }
+    .checklist li::before {
+      content: ""; width: .75rem; height: .75rem; margin-top: .35rem;
+      border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(13,110,110,.12);
+    }
+    .checklist strong { display: block; margin-bottom: .15rem; }
+    .checklist span { color: var(--ink-soft); font-size: .9rem; line-height: 1.45; }
+
+    .bar-list { display: grid; gap: .6rem; }
+    .bar-row { display: grid; grid-template-columns: 7.2rem 1fr auto; gap: .65rem; align-items: center; font-size: .86rem; }
+    .bar-track { height: 10px; background: rgba(15,28,46,.08); border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--accent), #149191); }
+    .bar-fill.warm { background: linear-gradient(90deg, #a34b1d, var(--accent-2)); }
+
+    footer {
+      margin-top: 2.4rem; padding: 1.5rem 0 2.3rem;
+      border-top: 1px solid var(--line); color: var(--ink-soft);
+      font-size: .85rem; line-height: 1.5;
+    }
+    code { font-size: .86em; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow"><i></i> Briefing de investimento · produto de publicação legal</div>
+      <h1 class="brand">Quebrar o monopólio das agências de publicidade legal</h1>
+      <p class="lede">
+        Material de apoio à decisão de investimento em uma ferramenta de
+        <strong>diagramação e preparação de balanços e demais matérias</strong>,
+        dando às S/As (e demais obrigadas) uma alternativa às agências —
+        com arquivo pronto para o Diário Oficial ou para o jornal de grande circulação escolhido pelo cliente.
+      </p>
+      <div class="meta-row">
+        <div><strong>Evidência volumétrica:</strong> DOE/SP · Empresarial</div>
+        <div><strong>Recortes:</strong> 2020–2021 e 2025–jul/2026</div>
+        <div><strong>Atualizado:</strong> 30/07/2026</div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Navegação">
+    <div class="wrap">
+      <ul>
+        <li><a href="#oportunidade">Oportunidade</a></li>
+        <li><a href="#problema">Problema</a></li>
+        <li><a href="#publico">Público-alvo</a></li>
+        <li><a href="#volumetria">Volumetria</a></li>
+        <li><a href="#concorrencia">Concorrência</a></li>
+        <li><a href="#solucao">Solução proposta</a></li>
+        <li><a href="#decisao">Perguntas para decisão</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="oportunidade">
+      <div class="wrap">
+        <h2>Por que este projeto existe</h2>
+        <p class="section-lead">
+          Empresas obrigadas por lei a publicar balanços e atos societários
+          dependem, na prática, das agências de publicidade legal. A complexidade
+          de critérios (formato, jornal de grande circulação, comprovação perante
+          juntas/órgãos) sustenta esse intermediário. A proposta é
+          <strong>industrializar a diagramação</strong> e devolver autonomia ao cliente.
+        </p>
+
+        <div class="grid-3">
+          <article class="panel">
+            <span class="pill">Dor do mercado</span>
+            <h3>Complexidade = barreira</h3>
+            <p style="margin:0;color:var(--ink-soft);line-height:1.5;font-size:.94rem">
+              Critérios técnicos e jurídicos das publicações em jornal de grande
+              circulação elevam o custo de erro e empurram a demanda para agências especializadas.
+            </p>
+          </article>
+          <article class="panel">
+            <span class="pill warm">Hipótese de produto</span>
+            <h3>Arquivo pronto + escolha do canal</h3>
+            <p style="margin:0;color:var(--ink-soft);line-height:1.5;font-size:.94rem">
+              Receber dados → gerar matéria diagramada → cliente publica no DOE
+              ou encaminha ao jornal preferido, sem depender da agência.
+            </p>
+          </article>
+          <article class="panel">
+            <span class="pill ink">Papel deste levantamento</span>
+            <h3>Volumetria e sazonalidade</h3>
+            <p style="margin:0;color:var(--ink-soft);line-height:1.5;font-size:.94rem">
+              Usar publicações reais no caderno Empresarial do DOE/SP como proxy
+              de demanda recorrente (quem publica, quando e com que tipo de título).
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="problema">
+      <div class="wrap">
+        <h2>O “monopólio” das agências de publicidade legal</h2>
+        <p class="section-lead">
+          Não é monopólio legal formal: é domínio de mercado pela especialização.
+          Enquanto a empresa não tiver capacidade interna (ou ferramenta) para
+          cumprir os critérios, a agência permanece o caminho padrão.
+        </p>
+        <div class="compare">
+          <article class="panel">
+            <h3>O que as agências controlam hoje</h3>
+            <ul style="margin:0;padding-left:1.1rem;color:var(--ink-soft);line-height:1.55">
+              <li>Interpretação dos critérios de diagramação e veiculação</li>
+              <li>Relacionamento com jornais de grande circulação</li>
+              <li>Fluxo de comprovantes e prazos perante a obrigação societária</li>
+              <li>Pacote “faz por você” — da matéria à publicação</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Onde há espaço para concorrer</h3>
+            <ul style="margin:0;padding-left:1.1rem;color:var(--ink-soft);line-height:1.55">
+              <li>Automatizar a geração do arquivo publicável (core técnico)</li>
+              <li>Separar <em>produção da matéria</em> de <em>compra de mídia</em></li>
+              <li>Oferecer DOE e jornal como opções de canal, não como amarra</li>
+              <li>Atender volume sazonal (AGO / balanços) com escala digital</li>
+            </ul>
+          </article>
+        </div>
+        <div class="callout warm">
+          <strong>Tese competitiva:</strong> se a complexidade da diagramação deixar
+          de ser um obstáculo, a agência deixa de ser inevitável — e passa a ser
+          uma escolha (ou um canal opcional), não o único caminho.
+        </div>
+      </div>
+    </section>
+
+    <section id="publico">
+      <div class="wrap">
+        <h2>Público-alvo da solução</h2>
+        <p class="section-lead">
+          O núcleo são empresas com obrigação legal de publicar demonstrações e atos —
+          em especial sociedades anônimas e, em hipóteses específicas, outras naturezas.
+          O DOE/SP mostra quem de fato publica no caderno Empresarial.
+        </p>
+        <div class="grid-3">
+          <article class="stat">
+            <div class="label">Núcleo jurídico</div>
+            <div class="value" style="font-size:1.35rem">S/As</div>
+            <div class="hint">Obrigação típica de publicação de demonstrações (Lei 6.404 e alterações), com regras atuais de jornal / modelo híbrido / Central de Balanços conforme porte e tipo.</div>
+          </article>
+          <article class="stat">
+            <div class="label">Adjacências</div>
+            <div class="value" style="font-size:1.35rem">Ltdas e OS</div>
+            <div class="hint">Nem toda Ltda tem obrigação de jornal; ainda assim há volume relevante de entidades (fundações, OS, holdings) publicando no Empresarial.</div>
+          </article>
+          <article class="stat">
+            <div class="label">Demanda observada</div>
+            <div class="value" style="font-size:1.35rem">Recorrente</div>
+            <div class="hint">Publicações anuais concentradas em fev–jun; base instalada que se repete ciclo a ciclo (AGO / balanços).</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="volumetria">
+      <div class="wrap">
+        <h2>Volumetria observada no DOE/SP</h2>
+        <p class="section-lead">
+          Proxy de mercado em São Paulo: quem publica balanços e demonstrações
+          no caderno Empresarial. Dois recortes — legado (2020–2021) e digital (2025–jul/2026).
+        </p>
+
+        <div class="grid-4">
+          <article class="stat">
+            <div class="label">Pubs 2020–2021</div>
+            <div class="value">4.446</div>
+            <div class="hint">Sumários do acervo legado · Empresarial</div>
+          </article>
+          <article class="stat">
+            <div class="label">Empresas distintas 2020–21</div>
+            <div class="value">3.384</div>
+            <div class="hint">Base ampla no período de pico</div>
+          </article>
+          <article class="stat">
+            <div class="label">Pubs 2025–jul/2026</div>
+            <div class="value">496</div>
+            <div class="hint">API digital · Atos Empresariais</div>
+          </article>
+          <article class="stat">
+            <div class="label">Empresas distintas 2025–26</div>
+            <div class="value">285</div>
+            <div class="hint">Até 30/07/2026 · ciclo ainda aberto</div>
+          </article>
+        </div>
+
+        <div class="callout">
+          <strong>Leitura para investimento:</strong> mesmo com métodos diferentes
+          entre legado e digital, a demanda é <em>recorrente</em>, <em>sazonal</em>
+          e composta por milhares de entidades no ciclo. Isso sustenta um produto
+          de produção de matéria — não apenas um serviço pontual.
+        </div>
+
+        <div class="tabs" role="tablist">
+          <button type="button" class="active" data-chart="legado">Sazonalidade 2020–2021</button>
+          <button type="button" data-chart="digital">Sazonalidade 2025–2026</button>
+        </div>
+        <div class="panel">
+          <div class="chart-box"><canvas id="chartMes"></canvas></div>
+        </div>
+
+        <div class="split" style="margin-top:1rem">
+          <div class="panel">
+            <h3>Picos (maior carga do ano)</h3>
+            <div class="bar-list" id="picos"></div>
+          </div>
+          <div class="panel">
+            <h3>Tipos de matéria no digital</h3>
+            <div class="chart-box sm"><canvas id="chartTipos"></canvas></div>
+            <p style="margin:.7rem 0 0;color:var(--ink-soft);font-size:.88rem;line-height:1.45">
+              No DOE digital, “balanço” aparece com várias derivações
+              (Demonstrações Financeiras, Balanço Patrimonial, Contábeis).
+              A ferramenta precisa cobrir essa família de títulos, não um único template.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="concorrencia">
+      <div class="wrap">
+        <h2>Mercado e concorrência</h2>
+        <p class="section-lead">
+          O campo competitivo não é só “outro software”: é o ecossistema que hoje
+          captura a jornada completa da publicação obrigatória.
+        </p>
+        <div class="compare">
+          <article class="panel">
+            <span class="pill warm">Concorrentes atuais</span>
+            <h3>Agências de publicidade legal</h3>
+            <div class="kv">
+              <div><span>Posição</span><b>Intermediário dominante</b></div>
+              <div><span>Força</span><b>Know-how + rede de jornais</b></div>
+              <div><span>Fraqueza</span><b>Custo, opacidade, dependência</b></div>
+              <div><span>Ameaça ao status quo</span><b>Self-service + arquivo pronto</b></div>
+            </div>
+          </article>
+          <article class="panel">
+            <span class="pill">Canais de veiculação</span>
+            <h3>DOE e jornais de grande circulação</h3>
+            <div class="kv">
+              <div><span>DOE/SP</span><b>Canal oficial / digital</b></div>
+              <div><span>Jornais</span><b>Ainda exigidos em vários casos</b></div>
+              <div><span>Central de Balanços</span><b>Alternativa para perfil elegível</b></div>
+              <div><span>Implicação</span><b>Produto multi-canal</b></div>
+            </div>
+          </article>
+        </div>
+        <div class="panel" style="margin-top:1rem">
+          <h3>Posicionamento desejado da nossa solução</h3>
+          <p style="margin:0;color:var(--ink-soft);line-height:1.55">
+            Não substituir o jornal nem o DOE — <strong>substituir a necessidade
+            de a agência diagramar e “empacotar”</strong> a matéria. O cliente
+            mantém a escolha do veículo; nós entregamos conformidade de formato
+            e velocidade na geração do arquivo publicável.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="solucao">
+      <div class="wrap">
+        <h2>Solução proposta — jornada do cliente</h2>
+        <p class="section-lead">
+          Fluxo-alvo da ferramenta de diagramação e publicação assistida.
+        </p>
+        <div class="flow">
+          <div class="flow-step">
+            <b>1. Entrada</b>
+            <p>Empresa envia dados/demonstrações e metadados societários necessários.</p>
+          </div>
+          <div class="flow-step">
+            <b>2. Regras</b>
+            <p>Motor aplica critérios de diagramação e variantes de matéria (balanço, DFs, atos).</p>
+          </div>
+          <div class="flow-step">
+            <b>3. Arquivo pronto</b>
+            <p>Gera artefato publicável (layout validado para o canal escolhido).</p>
+          </div>
+          <div class="flow-step">
+            <b>4. Escolha do canal</b>
+            <p>Cliente opta por Diário Oficial ou jornal de grande circulação preferido.</p>
+          </div>
+          <div class="flow-step">
+            <b>5. Encaminhamento</b>
+            <p>Publica no DOE ou envia ao jornal — sem amarrar à agência.</p>
+          </div>
+        </div>
+
+        <div class="split" style="margin-top:1.2rem">
+          <div class="panel">
+            <h3>O que a volumetria recomenda priorizar no MVP</h3>
+            <ul class="checklist">
+              <li>
+                <div>
+                  <strong>Templates de balanço / demonstrações</strong>
+                  <span>Cobrir a família de títulos mais frequente no DOE digital e o rótulo BALANÇO do legado.</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Capacidade sazonal (mar–mai)</strong>
+                  <span>Pico em abril: a solução precisa escalar nesse trimestre sem gargalo manual.</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Exportação multi-canal</strong>
+                  <span>DOE e jornal como destinos — a escolha fica com a empresa.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Amostras reais (proxy de clientes)</h3>
+            <div style="overflow-x:auto">
+              <table>
+                <thead>
+                  <tr><th>Data</th><th>Entidade</th><th>Tipo</th></tr>
+                </thead>
+                <tbody id="sampleBody"></tbody>
+              </table>
+            </div>
+            <div class="tabs" style="margin-top:1rem" role="tablist">
+              <button type="button" class="active" data-sample="legado">2020–2021</button>
+              <button type="button" data-sample="digital">2025–2026</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="decisao">
+      <div class="wrap">
+        <h2>Perguntas para a decisão de investimento</h2>
+        <p class="section-lead">
+          Roteiro sugerido para a diretoria avaliar se e como avançar.
+        </p>
+        <div class="grid-3">
+          <article class="panel">
+            <span class="pill">Mercado</span>
+            <h3>Há demanda recorrente?</h3>
+            <p style="margin:0;color:var(--ink-soft);line-height:1.5;font-size:.94rem">
+              Sim, no proxy DOE/SP: milhares de publicações no ciclo 2020–21 e centenas no digital recente, com sazonalidade clara.
+            </p>
+          </article>
+          <article class="panel">
+            <span class="pill warm">Produto</span>
+            <h3>Onde está o wedge?</h3>
+            <p style="margin:0;color:var(--ink-soft);line-height:1.5;font-size:.94rem">
+              Diagramação automática + arquivo pronto. A agência perde força quando a conformidade deixa de ser misteriosa.
+            </p>
+          </article>
+          <article class="panel">
+            <span class="pill ink">Go-to-market</span>
+            <h3>Como entrar?</h3>
+            <p style="margin:0;color:var(--ink-soft);line-height:1.5;font-size:.94rem">
+              Começar por balanços/DFs no pico AGO; depois expandir para demais matérias societárias e canais (DOE/jornal).
+            </p>
+          </article>
+        </div>
+
+        <div class="callout" style="margin-top:1.2rem">
+          <strong>Próximo passo sugerido:</strong> validar com 5–10 empresas publicantes
+          (amostra do levantamento) se aceitariam gerar o arquivo na ferramenta e
+          escolher o canal — medindo disposição a pagar versus o pacote da agência.
+        </div>
+
+        <div class="panel" style="margin-top:1rem">
+          <h3>Arquivos de suporte</h3>
+          <p style="margin:0;color:var(--ink-soft);line-height:1.55;font-size:.94rem">
+            Bases usadas neste briefing:
+            <code>balancos_doe_empresarial_2020-2021.csv</code>,
+            <code>balancos_doe_empresarial_2025-2026.csv</code>,
+            <code>balancos_doe_resumo_2020-2021.json</code>,
+            <code>relatorio_dados.json</code>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Briefing interno de apoio à decisão de investimento · Solução de diagramação e publicação legal · Evidências volumétricas do caderno Empresarial do DOE/SP (legado e digital) · 30/07/2026.
+      Números de 2020–2021 e 2025–2026 usam métodos distintos e não devem ser lidos como série histórica única sem ressalva.
+    </div>
+  </footer>
+
+  <script>
+    const DATA = {
+      legado: {
+        porMes: {
+          "2020-02": 164, "2020-03": 335, "2020-04": 637, "2020-05": 414, "2020-06": 551, "2020-08": 1,
+          "2021-02": 133, "2021-03": 466, "2021-04": 928, "2021-05": 479, "2021-06": 338
+        },
+        picos: [["2021-04", 928], ["2020-04", 637], ["2020-06", 551], ["2021-05", 479], ["2021-03", 466]],
+        familias: {
+          "BALANÇO": 4397,
+          "DEMONSTRAÇÕES FINANCEIRAS": 32,
+          "DEMONSTRAÇÕES CONTÁBEIS": 14,
+          "BALANÇO PATRIMONIAL": 3
+        },
+        amostra: [
+          ["2020-02-01", "BANCO SANTANDER (BRASIL) S.A", "BALANÇO"],
+          ["2020-02-06", "BANCO DAYCOVAL S.A", "BALANÇO"],
+          ["2020-02-07", "BANCO BRADESCO S.A", "BALANÇO"],
+          ["2020-02-07", "KLABIN SA", "BALANÇO"],
+          ["2020-02-08", "ALPARGATAS S.A", "BALANÇO"],
+          ["2020-02-27", "AMBEV S.A", "BALANÇO"],
+          ["2020-04-24", "DAE SA - AGUA E ESGOTO DE JUNDIAÍ", "BALANÇO"],
+          ["2020-04-29", "BANCO FICSA S/A", "BALANÇO"]
+        ]
+      },
+      digital: {
+        porMes: {
+          "2025-02": 5, "2025-03": 65, "2025-04": 116, "2025-05": 30, "2025-06": 20, "2025-07": 17,
+          "2025-08": 6, "2025-09": 4, "2025-10": 2, "2025-11": 4, "2025-12": 3,
+          "2026-01": 4, "2026-02": 9, "2026-03": 52, "2026-04": 122, "2026-05": 15, "2026-06": 13, "2026-07": 9
+        },
+        picos: [["2026-04", 122], ["2025-04", 116], ["2025-03", 65], ["2026-03", 52], ["2025-05", 30]],
+        familias: {
+          "DEMONSTRAÇÕES FINANCEIRAS": 192,
+          "BALANÇO": 152,
+          "BALANÇO PATRIMONIAL": 114,
+          "DEMONSTRAÇÕES CONTÁBEIS": 38
+        },
+        amostra: [
+          ["2025-03-31", "CITIBANK, N.A. - FILIAL BRASILEIRA", "BALANÇOS PATRIMONIAIS"],
+          ["2025-03-26", "SUSTENIDOS ORGANIZAÇÃO SOCIAL DE CULTURA", "DEMONSTRAÇÕES CONTÁBEIS"],
+          ["2025-04-14", "CPTM", "DEMONSTRAÇÕES CONTÁBEIS"],
+          ["2025-04-16", "CETESB", "BALANÇO"],
+          ["2025-05-22", "SACYR CONSTRUCCION S.A.", "BALANÇO PATRIMONIAL CONSOLIDADO"],
+          ["2026-04-02", "CPP", "BALANÇO PATRIMONIAL"],
+          ["2026-04-28", "FUNDAÇÃO BUTANTAN", "DEMONSTRAÇÕES FINANCEIRAS"],
+          ["2026-07-29", "SACYR CONSTRUCCION S.A.", "BALANÇO PATRIMONIAL 31/12/2025"]
+        ]
+      }
+    };
+
+    const fmt = (n) => n.toLocaleString("pt-BR");
+    const ink = "#0f1c2e", accent = "#0d6e6e", warm = "#c45c26";
+    let chartMes, chartTipos, current = "legado";
+
+    function renderPicos(key) {
+      const max = Math.max(...DATA[key].picos.map((x) => x[1]));
+      document.getElementById("picos").innerHTML = DATA[key].picos.map(([m, v], i) => `
+        <div class="bar-row">
+          <div>${m}</div>
+          <div class="bar-track"><div class="bar-fill ${i === 0 ? "warm" : ""}" style="width:${(v / max) * 100}%"></div></div>
+          <div><strong>${fmt(v)}</strong></div>
+        </div>`).join("");
+    }
+
+    function renderSample(key) {
+      document.getElementById("sampleBody").innerHTML = DATA[key].amostra.map(([d, n, t]) =>
+        `<tr><td>${d}</td><td>${n}</td><td>${t}</td></tr>`
+      ).join("");
+    }
+
+    function buildCharts(key) {
+      const set = DATA[key];
+      const labels = Object.keys(set.porMes);
+      const values = labels.map((k) => set.porMes[k]);
+      if (chartMes) chartMes.destroy();
+      chartMes = new Chart(document.getElementById("chartMes"), {
+        type: "bar",
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: labels.map((l) => l.endsWith("-04") ? warm : accent),
+            borderRadius: 6, maxBarThickness: 28
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => ` ${fmt(c.parsed.y)} publicações` } } },
+          scales: {
+            x: { ticks: { color: ink, maxRotation: 60, minRotation: 45, font: { size: 10 } }, grid: { display: false } },
+            y: { ticks: { color: ink, callback: (v) => fmt(v) }, grid: { color: "rgba(15,28,46,.08)" } }
+          }
+        }
+      });
+
+      if (chartTipos) chartTipos.destroy();
+      // Always show digital family mix for product implication; when legado selected still show digital types in side chart? Better: show current set familias
+      const famLabels = Object.keys(set.familias);
+      const famValues = Object.values(set.familias);
+      chartTipos = new Chart(document.getElementById("chartTipos"), {
+        type: "doughnut",
+        data: {
+          labels: famLabels,
+          datasets: [{ data: famValues, backgroundColor: ["#0d6e6e", "#c45c26", "#2a3d55", "#8aa39a"], borderWidth: 0 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom", labels: { color: ink, boxWidth: 12, font: { size: 10 } } },
+            tooltip: { callbacks: { label: (c) => ` ${c.label}: ${fmt(c.parsed)}` } }
+          }
+        }
+      });
+      renderPicos(key);
+    }
+
+    document.querySelectorAll("[data-chart]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("[data-chart]").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        current = btn.dataset.chart;
+        buildCharts(current);
+      });
+    });
+    document.querySelectorAll("[data-sample]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("[data-sample]").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        renderSample(btn.dataset.sample);
+      });
+    });
+
+    buildCharts("legado");
+    renderSample("legado");
+  </script>
+</body>
+</html>

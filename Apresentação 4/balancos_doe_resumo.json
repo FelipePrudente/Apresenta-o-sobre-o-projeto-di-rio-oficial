@@ -1,0 +1,14 @@
+﻿{
+    "generatedAt":  "2026-07-30T09:51:54.3909973-03:00",
+    "periodStart":  "2025-01-01",
+    "periodEnd":  "2026-07-30",
+    "totalPublications":  496,
+    "uniqueNames":  285,
+    "daysScannedOk":  576,
+    "daysEmptyOrNoEdition":  0,
+    "daysError":  0,
+    "byYear":  {
+                   "2026":  224,
+                   "2025":  272
+               }
+}

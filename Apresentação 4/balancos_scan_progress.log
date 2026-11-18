@@ -1,0 +1,171 @@
+﻿Scan start 2026-07-30T09:50:00.5548073-03:00 from 2025-01-01 to 2026-07-30
+checkpoint 2025-01-30 hits=0 ok=30 empty=0 err=0
+2025-02-25 hits=2 total=2
+2025-02-26 hits=1 total=3
+2025-02-27 hits=1 total=4
+2025-02-28 hits=1 total=5
+checkpoint 2025-03-01 hits=5 ok=60 empty=0 err=0
+2025-03-05 hits=2 total=7
+2025-03-07 hits=1 total=8
+2025-03-11 hits=5 total=13
+2025-03-12 hits=6 total=19
+2025-03-13 hits=6 total=25
+2025-03-14 hits=8 total=33
+2025-03-17 hits=2 total=35
+2025-03-19 hits=1 total=36
+2025-03-20 hits=3 total=39
+2025-03-21 hits=2 total=41
+2025-03-24 hits=3 total=44
+2025-03-25 hits=1 total=45
+2025-03-26 hits=5 total=50
+2025-03-27 hits=5 total=55
+2025-03-28 hits=4 total=59
+2025-03-31 hits=11 total=70
+checkpoint 2025-03-31 hits=70 ok=90 empty=0 err=0
+2025-04-01 hits=3 total=73
+2025-04-02 hits=3 total=76
+2025-04-04 hits=5 total=81
+2025-04-07 hits=1 total=82
+2025-04-08 hits=2 total=84
+2025-04-09 hits=1 total=85
+2025-04-11 hits=4 total=89
+2025-04-14 hits=3 total=92
+2025-04-15 hits=6 total=98
+2025-04-16 hits=2 total=100
+2025-04-17 hits=5 total=105
+2025-04-23 hits=1 total=106
+2025-04-24 hits=2 total=108
+2025-04-25 hits=26 total=134
+2025-04-28 hits=17 total=151
+2025-04-29 hits=19 total=170
+2025-04-30 hits=16 total=186
+checkpoint 2025-04-30 hits=186 ok=120 empty=0 err=0
+2025-05-05 hits=3 total=189
+2025-05-06 hits=4 total=193
+2025-05-07 hits=2 total=195
+2025-05-08 hits=3 total=198
+2025-05-14 hits=2 total=200
+2025-05-16 hits=1 total=201
+2025-05-20 hits=4 total=205
+2025-05-22 hits=2 total=207
+2025-05-23 hits=6 total=213
+2025-05-26 hits=1 total=214
+2025-05-28 hits=2 total=216
+checkpoint 2025-05-30 hits=216 ok=150 empty=0 err=0
+2025-06-03 hits=1 total=217
+2025-06-04 hits=5 total=222
+2025-06-06 hits=6 total=228
+2025-06-10 hits=2 total=230
+2025-06-18 hits=2 total=232
+checkpoint 2025-06-29 hits=232 ok=180 empty=0 err=0
+2025-06-30 hits=4 total=236
+2025-07-04 hits=2 total=238
+2025-07-07 hits=2 total=240
+2025-07-11 hits=1 total=241
+2025-07-15 hits=2 total=243
+2025-07-17 hits=3 total=246
+2025-07-22 hits=1 total=247
+2025-07-25 hits=1 total=248
+checkpoint 2025-07-29 hits=248 ok=210 empty=0 err=0
+2025-07-30 hits=5 total=253
+2025-08-11 hits=2 total=255
+2025-08-13 hits=1 total=256
+2025-08-19 hits=2 total=258
+2025-08-21 hits=1 total=259
+checkpoint 2025-08-28 hits=259 ok=240 empty=0 err=0
+2025-09-03 hits=1 total=260
+2025-09-04 hits=1 total=261
+2025-09-11 hits=1 total=262
+2025-09-16 hits=1 total=263
+checkpoint 2025-09-27 hits=263 ok=270 empty=0 err=0
+2025-10-14 hits=1 total=264
+2025-10-24 hits=1 total=265
+checkpoint 2025-10-27 hits=265 ok=300 empty=0 err=0
+2025-11-03 hits=1 total=266
+2025-11-06 hits=1 total=267
+2025-11-11 hits=1 total=268
+2025-11-14 hits=1 total=269
+checkpoint 2025-11-26 hits=269 ok=330 empty=0 err=0
+2025-12-11 hits=1 total=270
+2025-12-17 hits=1 total=271
+checkpoint 2025-12-26 hits=271 ok=360 empty=0 err=0
+2025-12-30 hits=1 total=272
+2026-01-20 hits=3 total=275
+checkpoint 2026-01-25 hits=275 ok=390 empty=0 err=0
+2026-01-28 hits=1 total=276
+2026-02-02 hits=2 total=278
+2026-02-09 hits=2 total=280
+2026-02-12 hits=1 total=281
+checkpoint 2026-02-24 hits=281 ok=420 empty=0 err=0
+2026-02-26 hits=1 total=282
+2026-02-27 hits=3 total=285
+2026-03-04 hits=6 total=291
+2026-03-06 hits=5 total=296
+2026-03-09 hits=4 total=300
+2026-03-10 hits=2 total=302
+2026-03-11 hits=1 total=303
+2026-03-12 hits=1 total=304
+2026-03-13 hits=1 total=305
+2026-03-16 hits=2 total=307
+2026-03-17 hits=2 total=309
+2026-03-19 hits=2 total=311
+2026-03-20 hits=1 total=312
+2026-03-24 hits=1 total=313
+2026-03-25 hits=10 total=323
+2026-03-26 hits=2 total=325
+checkpoint 2026-03-26 hits=325 ok=450 empty=0 err=0
+2026-03-27 hits=1 total=326
+2026-03-30 hits=7 total=333
+2026-03-31 hits=4 total=337
+2026-04-01 hits=1 total=338
+2026-04-02 hits=1 total=339
+2026-04-06 hits=1 total=340
+2026-04-07 hits=1 total=341
+2026-04-08 hits=2 total=343
+2026-04-09 hits=1 total=344
+2026-04-10 hits=1 total=345
+2026-04-13 hits=1 total=346
+2026-04-14 hits=6 total=352
+2026-04-15 hits=6 total=358
+2026-04-16 hits=2 total=360
+2026-04-17 hits=7 total=367
+2026-04-22 hits=9 total=376
+2026-04-23 hits=5 total=381
+2026-04-24 hits=7 total=388
+checkpoint 2026-04-25 hits=388 ok=480 empty=0 err=0
+2026-04-27 hits=2 total=390
+2026-04-28 hits=43 total=433
+2026-04-29 hits=10 total=443
+2026-04-30 hits=16 total=459
+2026-05-04 hits=1 total=460
+2026-05-07 hits=1 total=461
+2026-05-11 hits=1 total=462
+2026-05-12 hits=1 total=463
+2026-05-14 hits=1 total=464
+2026-05-15 hits=1 total=465
+2026-05-18 hits=1 total=466
+2026-05-20 hits=1 total=467
+2026-05-21 hits=2 total=469
+2026-05-22 hits=1 total=470
+checkpoint 2026-05-25 hits=470 ok=510 empty=0 err=0
+2026-05-27 hits=1 total=471
+2026-05-29 hits=3 total=474
+2026-06-02 hits=1 total=475
+2026-06-03 hits=1 total=476
+2026-06-09 hits=1 total=477
+2026-06-11 hits=2 total=479
+2026-06-15 hits=1 total=480
+2026-06-17 hits=1 total=481
+2026-06-22 hits=1 total=482
+2026-06-24 hits=1 total=483
+checkpoint 2026-06-24 hits=483 ok=540 empty=0 err=0
+2026-06-26 hits=1 total=484
+2026-06-29 hits=3 total=487
+2026-07-02 hits=1 total=488
+2026-07-03 hits=2 total=490
+2026-07-06 hits=1 total=491
+2026-07-21 hits=1 total=492
+2026-07-22 hits=1 total=493
+checkpoint 2026-07-24 hits=493 ok=570 empty=0 err=0
+2026-07-29 hits=3 total=496
+DONE hits=496 uniqueNames=285 ok=576 empty=0 err=0

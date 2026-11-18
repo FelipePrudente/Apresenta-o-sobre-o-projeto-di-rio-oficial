@@ -1,0 +1,43 @@
+{
+  "period": "2020-2021",
+  "source": "imprensaoficial.com.br - sumarios caderno Empresarial (GatewayPDF)",
+  "method": "censo ampliado: sumarios anuais + varredura dia a dia fev-jun; parse secao BALANCO/DEMONSTRACOES",
+  "coverage_note": "Foco no periodo tipico de publicacao (fev-jun). API doe.sp.gov.br nao cobre 2020-2021.",
+  "total_rows": 4446,
+  "by_year": {
+    "2020": 2102,
+    "2021": 2344
+  },
+  "by_month": {
+    "2020-02": 164,
+    "2020-03": 335,
+    "2020-04": 637,
+    "2020-05": 414,
+    "2020-06": 551,
+    "2020-08": 1,
+    "2021-02": 133,
+    "2021-03": 466,
+    "2021-04": 928,
+    "2021-05": 479,
+    "2021-06": 338
+  },
+  "unique_names": 3384,
+  "top_titles": [
+    [
+      "BALANÇO",
+      4397
+    ],
+    [
+      "DEMONSTRAÇÕES FINANCEIRAS",
+      32
+    ],
+    [
+      "DEMONSTRAÇÕES CONTÁBEIS",
+      14
+    ],
+    [
+      "BALANÇO PATRIMONIAL",
+      3
+    ]
+  ]
+}

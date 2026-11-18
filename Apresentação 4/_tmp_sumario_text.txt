@@ -1,0 +1,404 @@
+Sumário 
+Caderno Empresarial 2
+BALANÇO
+DAE SA - AGUA E ESGOTO DE JUNDIAÍ ........................................... 3
+Diário Oficial
+Estado de São Paulo
+Empresarial 2
+Volume 130  Número 76 Página 4
+São Paulo, sexta-feira, 24 de abril de 2020
+NOTAS EXPLICATIVAS ÀS DEMONSTRAÇÕES CONTÁBEIS (Em milhares de Reais)
+DAE S.A. - ÁGUA E ESGOTO
+CNPJ nº 03.582.243/0001-73
+3. PRINCIPAIS POLÍTICAS CONTÁBEIS
+A Companhia aplicou as políticas contábeis descritas abaixo de maneira consistente a 
+todos os e
+xercícios apresentados nestas demonstrações contábeis.
+a. Instrumentos financeiros
+a.1 Ativos e passivos financeiros não derivativos
+A Companhia reconhece os empréstimos, recebíveis e depósitos inicialmente na data em 
+que foram originados. Todos os outros ativos financeiros, são reconhecidos inicialmente 
+na data da negociação, na qual a Companhia se torna uma das partes das disposições 
+contratuais do instrumento.
+A Companhia desconhece um ativo financeiro quando os direitos contratuais aos fluxos 
+de caixa do ativo expiram, ou quando transfere os direitos ao recebimento dos fluxos de 
+caixa contratuais sobre um ativo financeiro em uma transação no qual essencialmente 
+todos os riscos e benefícios da titularidade do ativo financeiro são transferidos. Qualquer 
+participação que seja criada ou retida pela Companhia nos ativos financeiros é 
+reconhecida como um ativo ou passivo separado.
+A Companhia desreconhece um passivo financeiro quando sua obrigação contratual é 
+retirada, cancelada ou expirada.
+Os ativos ou passivos financeiros são compensados e o valor líquido é apresentado no 
+balanço patrimonial quando, e somente quando, a Companhia tem o direito legalmente 
+executável de compensar os valores e tem a intenção de liquidá-los em uma base líquida 
+ou de realizar o ativo e liquidar o passivo simultaneamente.
+a.2 Ativos financeiros não derivativos - mensuração
+Ativos financeiros mensurados pelo valor justo por meio do resultado
+Um ativo financeiro é classificado pelo valor justo por meio do resultado caso seja 
+classificado como mantido para negociação ou designado como tal quando do 
+reconhecimento inicial. Os custos da transação, após o reconhecimento inicial, são 
+reconhecidos no resultado como incorridos. Esses ativos são mensurados pelo valor 
+justo e mudanças no valor justo desses ativos são reconhecidas no resultado do exercício.
+Empréstimos e recebíveis
+Esses ativos são mensurados inicialmente pelo valor justo acrescido de quaisquer custos 
+de transação diretamente atribuíveis. Após seu reconhecimento inicial, os empréstimos e 
+recebíveis são mensurados pelo custo amortizado utilizando o método dos juros efetivos. 
+Os empréstimos e recebíveis abrangem clientes e outros créditos, incluindo os recebíveis 
+oriundos de acordos de concessão de serviços.
+b. Caixa e equivalentes de caixa
+Incluem os saldos em caixa, depósitos bancários à vista em contas correntes e aplicações 
+financeiras de curto prazo, resgatáveis no prazo de até 90 dias da data do balanço, ou 
+considerados de liquidez imediata ou conversíveis em um montante conhecido de caixa 
+e que estão sujeitos a um insignificante risco de mudança de valor. As aplicações 
+financeiras são demonstradas ao custo, acrescido dos rendimentos apurados até a data 
+do balanço, que não excede o valor de mercado.
+c. Contas a receber de clientes
+As contas a receber dos usuários dos serviços de fornecimento de água e saneamento 
+são avaliadas pelo valor da tarifa na data da prestação do serviço e incluem, também, 
+créditos por serviços prestados e não faturados até a data do balanço, valores a receber 
+de uso da rede.
+Quando aplicável, as contas a receber de clientes são ajustadas ao valor presente, 
+incluindo os respectivos impostos diretos de responsabilidade tributária da Companhia, 
+menos os impostos retidos na fonte, os quais são considerados créditos tributários.
+O cálculo do valor presente, quando cabível, é efetuado para cada transação com base 
+numa taxa de juros que reflete o prazo, a moeda e o risco de cada transação. A 
+contrapartida dos ajustes a valor presente das contas a receber é a receita bruta, no 
+resultado do exercício. A diferença entre o valor presente de uma transação e o valor de 
+face do faturamento é considerada receita financeira, apropriada com base nos métodos 
+do custo amortizado e da taxa de juros efetiva ao longo do prazo de vencimento da 
+transação.
+d. Imobilizado
+d.1 Reconhecimento e mensuração
+Itens do imobilizado são mensurados pelo custo histórico de aquisição ou construção, 
+que inclui o custo de empréstimos capitalizados, deduzido de depreciação acumulada e 
+quaisquer perdas acumuladas por redução ao valor recuperável ( impairment), quando 
+aplicável.
+Os custos de itens registrados no ativo imobilizado incluem todos aqueles que sejam 
+diretamente atribuíveis à aquisição ou formação do ativo. Os custos de ativos construídos 
+pela própria Companhia incluem o custo de materiais e de salários de funcionários 
+diretamente envolvidos nos projetos de construção ou formação desses ativos. Inclui 
+também quaisquer outros custos diretamente atribuíveis ao ativo até que o mesmo esteja 
+em condições de ser utilizado para seus fins previstos pela Companhia, que incluem 
+custos de desmobilização de itens do ativo e de restauração de sites nos quais estes 
+ativos estejam instalados, e custos de empréstimos em ativos qualificáveis.
+O software comprado que seja parte integrante da funcionalidade de um equipamento é 
+capitalizado como parte daquele equipamento.
+Quando partes significativas de um item do imobilizado têm diferentes vidas úteis, elas 
+são registradas como itens separados (componentes principais) de imobilizado.
+Quaisquer ganhos e perdas na alienação de um item do imobilizado são reconhecidos no 
+resultado.
+d.2 Custos subsequentes
+Gastos subsequentes são capitalizados apenas quando é provável que benefícios futuros 
+associados com os gastos serão auferidos pela Companhia. Gastos de manutenção e 
+reparos recorrentes são registrados no resultado.
+d.3 Depreciação
+A depreciação é calculada para amortizar o custo de itens do ativo imobilizado, líquido de 
+seus valores residuais estimados, utilizando o método linear baseado na vida útil 
+estimada dos itens.
+A depreciação é reconhecida no resultado. Terrenos não são depreciados.
+As taxas anuais de depreciação estimadas do ativo imobilizado são as seguintes:
+2019 2018
+Construções civis e benfeitorias 2% 2%
+Sistema de abastecimento de água e esgoto 2 a 4% 2 a 4%
+Máquinas e equipamentos 8 a 10% 8 a 10%
+Móveis e utensílios 8 a 10% 8 a 10%
+Equipamento de informática 33% 33%
+Veículos de passeio e carga 10 a 20% 10 a 20%
+Veículos especiais 10 a 25% 10 a 25%
+Tratores 25% 25%
+Motocicletas 20% 20%
+Softwares 20% 20%
+Os métodos de depreciação, as vidas úteis e os valores residuais são revistos a cada 
+data de balanço e ajustados caso seja apropriado.
+e. Ativos intangíveis
+Softwares
+As licenças de programas de computador (“softwares”) e de sistemas de gestão 
+empresarial adquiridas são mensuradas pelo seu valor de custo. Os gastos com aquisição 
+e implementação de sistemas de gestão empresarial são capitalizados como ativo 
+intangível quando é provável que os benefícios econômicos futuros por ele gerados 
+sejam superiores ao seu respectivo custo, considerando sua viabilidade econômica e 
+tecnológica.
+Gastos subsequentes
+Os gastos subsequentes são capitalizados somente quando eles aumentam os futuros 
+benefícios econômicos incorporados no ativo específico ao quais se relacionam. Todos 
+os outros gastos, são reconhecidos no resultado conforme incorridos.
+Amortização
+A amortização é calculada utilizando o método linear baseado na vida útil estimada dos 
+itens, líquido de seus valores residuais estimados. A amortização é geralmente 
+reconhecida no resultado. Os métodos de amortização, as vidas úteis e os valores 
+residuais são revistos a cada data de balanço e ajustados caso seja apropriado.
+A taxa anual de amortização estimada dos ativos intangíveis para o exercício corrente e 
+comparativo é:
+2019 2018
+Sistemas de informação 20% 20%
+f. Redução ao valor recuperável (impairment)
+Ativos financeiros não derivativos (incluindo recebíveis)
+Ativos financeiros não classificados como ativos financeiros ao valor justo por meio do 
+resultado são avaliados em cada data do balanço para determinar se há evidência 
+objetiva de perda por redução ao valor recuperável.
+Evidência objetiva de que ativos financeiros tiveram perda de valor inclui o não pagamento 
+ou atraso no pagamento por parte do devedor, a reestruturação do valor devido à 
+Companhia sobre condições que consideraria em outras transações, indicações de que 
+o devedor ou emissor entrará em processo de falência, ou o desaparecimento de um 
+mercado ativo para um título. Além disso, para um instrumento patrimonial, um declínio 
+significativo ou prolongado em seu valor justo abaixo do seu custo é evidência objetiva de 
+perda por redução ao valor recuperável.
+A provisão para redução ao valor recuperável de contas a receber de clientes é constituída 
+tendo por base critério adotado pela Administração para constituição de perdas, que 
+geralmente representam os créditos vencidos há mais de 60 dias, considerados pela 
+Administração como de improvável recuperação.
+Ativos financeiros mensurados pelo custo amortizado
+A Companhia considera evidência de perda de valor de ativos mensurados pelo custo 
+amortizado (para recebíveis e títulos de investimentos mantidos até o vencimento) tanto 
+no nível individualizado como no nível coletivo. Todos os ativos individualmente 
+significativos são avaliados quanto à perda por redução ao valor recuperável. Aqueles 
+que não tenham sofrido perda de valor individualmente são então avaliados coletivamente 
+quanto a qualquer perda de valor que possa ter ocorrido, mas não tenha ainda sido 
+identificada. Ativos que não são individualmente significativos são avaliados coletivamente 
+quanto à perda de valor com base no agrupamento de ativos com características de risco 
+similares.
+Ao avaliar a perda de valor recuperável de forma coletiva, a Companhia utiliza tendências 
+históricas da probabilidade de inadimplência, do prazo de recuperação e dos valores de 
+perda incorridos, ajustados para refletir o julgamento da Administração quanto às 
+premissas se as condições econômicas e de crédito atuais são tais que as perdas reais 
+provavelmente serão maiores ou menores que as sugeridas pelas tendências históricas.
+Uma perda por redução ao valor recuperável é calculada como a diferença entre o valor 
+contábil e o valor presente dos fluxos de caixa futuros estimados, descontados à taxa de 
+juros efetiva original do ativo. As perdas são reconhecidas no resultado e refletidas em 
+uma conta de provisão. Quando a Companhia considera que não há expectativas 
+razoáveis de recuperação, os valores são baixados. Quando um evento subsequente 
+indica uma redução da perda, a provisão é revertida por meio do resultado.
+Ativos não financeiros
+Os valores contábeis dos ativos não financeiros da Companhia, que não estoques e 
+imposto de renda e contribuição social diferidos, são revistos a cada data de balanço para 
+apurar se há indicação de perda no valor recuperável. Caso ocorra tal indicação, o valor 
+recuperável do ativo é estimado.
+Considerando a natureza da área de atuação da Companhia ser de serviço público 
+essencial e as decisões de investimentos estarem ligadas a responsabilidades de ordem 
+social e ambiental, foram definidos como unidade geradora de caixa os serviços públicos 
+de água e esgoto, que apresentou margem bruta positiva. O fator principal que faz com 
+que o controle gerencial da Companhia seja o conjunto das atividades de água e de 
+esgoto é a existência de subsidio cruzado na prestação de serviços de fornecimento de 
+água, coleta, afastamento e tratamento de esgoto. A Companhia não administra os 
+resultados operacionais de água e esgoto separadamente, ou tenha informação 
+financeira individualizada disponível.
+g. Provisões
+Uma provisão é reconhecida no balanço patrimonial quando a Companhia possui uma 
+obrigação legal ou construtiva como resultado de um evento passado que possa ser 
+estimada de maneira confiável, e é provável que um recurso econômico seja requerido 
+para saldar a obrigação. As provisões são registradas tendo como base as melhores 
+estimativas do risco envolvido.
+h. Seguros
+A administração da Companhia entende que os riscos estão gerenciados de modo 
+satisfatório não demandando nenhuma ação adicional. Desta forma, entendendo que o 
+patrimônio e a operação estejam protegidos, não foi efetuada cobertura de seguros de 
+relevância, como empresarial e de veículos.
+Para os casos em que há a necessidade de contratação de seguro, como por exemplo 
+aluguel de imóveis e equipamentos, as despesas são apropriadas conforme a vigência 
+do contrato, exceto para parcelas com valores imateriais que são contabilizados 
+diretamente na despesa.
+i. Benefícios a empregados
+i.1 Benefícios de curto prazo a empregados
+Obrigações de benefícios de curto prazo a empregados são reconhecidas como 
+despesas de pessoal conforme o serviço correspondente seja prestado. O passivo é 
+reconhecido pelo montante do pagamento esperado caso a Companhia tenha uma 
+obrigação presente legal ou construtiva de pagar esse montante em função de serviço 
+passado prestado pelo empregado e a obrigação possa ser estimada de maneira 
+confiável.
+j. Imposto de renda e contribuição social
+O Imposto de Renda e a Contribuição Social do exercício correntes e diferidos são 
+calculados com base nas alíquotas de 15%, acrescidas do adicional de 10% sobre o 
+lucro tributável excedente de R$ 240 para imposto de renda e 9% sobre o lucro tributável 
+para contribuição social sobre o lucro líquido, e consideram a compensação de prejuízos 
+fiscais do imposto de renda e base negativa de contribuição social, limitada a 30% do 
+lucro tributável do exercício.
+As despesas com imposto de renda e contribuição social compreende os impostos de 
+renda correntes e diferidos. O imposto corrente e o imposto diferido são reconhecidos no 
+resultado a menos que estejam relacionados a itens diretamente reconhecidos no 
+patrimônio líquido ou em outros resultados abrangentes.
+j.1 Despesas de imposto de renda e contribuição social correntes
+A despesa de imposto corrente é o imposto a pagar ou a receber estimado sobre o lucro 
+ou prejuízo tributável do exercício e qualquer ajuste aos impostos a pagar com relação 
+aos exercícios anteriores. O montante dos impostos correntes a pagar ou a receber é 
+reconhecido no balanço patrimonial como ativo ou passivo fiscal pela melhor estimativa 
+do valor esperado dos impostos a serem pagos ou recebidos que reflete as incertezas 
+relacionadas a sua apuração, se houver. Ele é mensurado com base nas taxas de 
+impostos decretadas na data do balanço. Os ativos e passivos fiscais correntes são 
+compensados somente se certos critérios forem atendidos.
+j.2 Despesas de imposto de renda e contribuição social diferidos
+Ativos e passivos fiscais diferidos são reconhecidos com relação às diferenças 
+temporárias entre os valores contábeis de ativos e passivos para fins de demonstrações 
+contábeis e os correspondentes valores usados para fins de tributação. Um ativo fiscal 
+diferido é reconhecido em relação aos prejuízos fiscais e diferenças temporárias 
+dedutíveis não utilizados, na extensão em que seja provável que lucros tributáveis futuros 
+estarão disponíveis, contra os quais serão utilizados. Ativos fiscais diferidos são revisados 
+a cada data de balanço e são reduzidos na extensão em que sua realização não seja 
+mais provável. O imposto diferido é mensurado pelas alíquotas que se espera serem 
+aplicadas às diferenças temporárias quando elas revertem, baseando-se nas leis que 
+foram decretadas ou substantivamente decretadas até a data de balanço.
+Os ativos e passivos fiscais diferidos são compensados caso haja um direito legal de 
+compensar passivos e ativos fiscais correntes, e eles se relacionam a impostos de renda 
+lançados pela mesma autoridade tributária sobre a mesma entidade sujeita à tributação.
+k. Subvenções governamentais
+Subvenções governamentais são reconhecidas inicialmente como receitas diferidas pelo 
+seu valor justo, quando existe razoável segurança de que elas serão recebidas e que a 
+Companhia irá cumprir as condições associadas com a subvenção e são posteriormente 
+reconhecidas no resultado como outras receitas, em uma base sistemática no período de 
+vida útil do ativo.
+As subvenções recebidas do Estado pela Companhia possuem em contrato cláusulas de 
+obrigação de execução da obra que se referem, sendo registradas como obrigações e 
+após o aceite da obra será reconhecida em resultado.
+l. Receita operacional
+Venda de serviços: As receitas da prestação de serviços de fornecimento de água e 
+saneamento são reconhecidas por ocasião do consumo de água ou por ocasião da 
+prestação de serviços. As receitas, incluindo receitas não faturadas, são reconhecidas ao 
+valor justo da contrapartida recebida ou a receber pela prestação desses serviços e são 
+apresentadas líquidas de impostos e taxas incidentes sobre a mesma, abatimentos e 
+descontos. As receitas ainda não faturadas representam receitas incorridas, cujo serviço 
+foi prestado, mas ainda não foi faturado até o final de cada período e são reconhecidas 
+como contas a receber de clientes com base em estimativas mensais dos serviços 
+completados. Para os serviços prestados à Prefeitura Municipal de Jundiaí, a Companhia 
+não constitui receita devido ao artigo 1º da Lei Municipal 2.062 de 1974, o qual estabelece 
+que são isentas as unidades prediais que se destinem ao cumprimento das obrigações 
+estatutárias.
+m. Receitas e despesas financeiras
+Receitas financeiras da Companhia compreendem principalmente juros sobre 
+investimentos realizados pela Companhia (incluindo aplicações financeiras), ajustes ao 
+valor presente de ativos financeiros, alterações no valor justo de ativos financeiros 
+avaliados a valor justo através do resultado. A receita de juros é reconhecida no resultado, 
+através do método do custo efetivo.
+Despesas financeiras compreendem principalmente despesas com juros e atualizações 
+monetárias de financiamentos, alterações no valor justo de ativos financeiros ao valor 
+justo através do resultado, perdas por ajuste ao valor recuperável de ativos financeiros 
+(“impairment”). Custos de empréstimo que não são diretamente atribuíveis à aquisição, 
+construção ou produção de um ativo qualificável são mensurados no resultado através do 
+método de juros efetivos.
+n. Determinação do valor justo
+Diversas políticas e divulgações contábeis da Companhia exigem a determinação do 
+valor justo, tanto para os ativos e passivos financeiros como para os não financeiros. Os 
+valores justos têm sido apurados para propósitos de mensuração e/ou divulgação 
+baseados nos métodos abaixo. Quando aplicável, as informações adicionais sobre as 
+premissas utilizadas na apuração dos valores justos são divulgadas nas notas específicas 
+àquele ativo ou passivo.
+o. Outros passivos financeiros não derivativos
+O valor justo, que é determinado para fins de divulgação, é calculado baseando-se no 
+valor presente do principal e fluxos de caixa futuros, descontados pela taxa de mercado 
+dos juros apurados na data de apresentação das demonstrações contábeis.
+4. NOVAS NORMAS E INTERPRETAÇÕES AINDA NÃO EFETIVAS
+Uma revisão de norma é efetiva para exercícios iniciados em 1º de janeiro de 2020. A 
+Companhia não identificou qualquer impacto dessas alter
+ações na preparação destas 
+demonstrações contábeis nem planeja adotá-las de forma antecipada.
+CPC 00 (R2) Estrutura Conceitual para Relatório Financeiro
+A segunda revisão do CPC 00 apresenta novos conceitos sobre apresentação, 
+mensuração e divulgação. Também atualizou a definição de ativos e passivos nas 
+demonstrações contábeis.
+A norma é efetiva para períodos anuais com início em ou após 1º de janeiro de 2020.
+5. REAPRESENTAÇÃO
+CPC 23 Fórmula de cálculo da estimativa
+Em 2018, ao serem calculados os v
+alores de receitas a faturar para reconhecimento de 
+estimativa contábil, foram utilizados os dias de leitura de 2017 pela fórmula em planilha 
+para reconhecimento de estimativa contábil ao invés das datas de leitura do próprio ano 
+de 2018. O valor ajustado, bem como o imposto diferido sobre a atualização da estimativa 
+foram reconhecidos do patrimônio líquido da Companhia como “ajustes de exercícios 
+anteriores”.
+A tabela a seguir resume os impactos nas demonstrações contábeis da Companhia, 
+inclusive os tributários, decorrentes destes ajustes:
+Balanço patrimonial
+Exercício findo em
+ 31 de dezembro de 2018
+Impactos dos ajustes de  
+exercícios anteriores
+Em milhares de Reais
+Anteriormente  
+apresentado Ajustes Reapresentado
+Contas a receber de clientes 41.600 2.181 43.781
+Ativo fiscal diferido 6.024 (742) 5.282
+Outros 287.912 – 287.912
+Total de ativos 335.536 1.439 336.975
+Total de passivos (70.176) – (70.176)
+Reserva de Lucros (57.645) (1.439) (59.084)
+Outros (207.715) – (207.715)
+Total do Patrimônio Líquido (265.360) (1.439) (266.799)
+Demonstração do resultado
+Exercício findo em
+ 31 de dezembro de 2018
+Impactos dos ajustes  
+de exercícios anteriores
+Em milhares de Reais
+Anteriormente  
+apresentado Ajustes Reapresentado
+Receita operacional líquida 247.676 2.181 249.857
+Imposto de renda e contribuição
+ social - diferido 1.050 (742) 308
+Outros (250.743) – (250.743)
+Lucro líquido (2.017) 1.439 (578)
+Total lucro abrangente (2.017) 1.439 (578)
+6. CAIXA E EQUIVALENTES DE CAIXA
+2019 2018
+Bancos 2.532 1.695
+Aplicações financeiras 39.855 25.786
+42.387 27.481
+As aplicações financeiras referem-se a fundos de investimento e certificados de depósito 
+bancário, remunerados pela variação da taxa do Certificado de Depósito Interbancário - 
+CDI, resgatáveis no prazo de até 90 dias da data do balanço. Há também aplicações 
+financeiras com características de longo prazo no montante de R$25.854, que foram 
+mantidas no disponível a curto prazo devido ao planejamento da Companhia que prevê 
+aplicação destes recursos em obras de investimento ao longo do ano de 2020. As 
+aplicações mais representativas estão apresentadas líquidas de IRRF .
+A exposição da Companhia a riscos de taxas de juros e uma análise de sensibilidade 
+para ativos e passivos financeiros estão divulgados na nota explicativa 31.
+7. INVESTIMENTOS FINANCEIROS
+2019 2018
+Cauções de fornecedores 126 221
+126 221
+As aplicações financeiras correspondem a valores de garantia de prestação de serviços 
+e entrega de materiais contratados com fornecedores através de processos licitatórios, 
+conforme Regulamento Interno de Compras e a Lei 13.303/16.
+A exposição da Companhia a riscos de taxas de juros e uma análise de sensibilidade 
+para ativos e passivos financeiros estão divulgados na nota explicativa 31.
+8. CONTAS A RECEBER DE CLIENTES
+Circulante 2019 2018
+Contas a receber de clientes 62.477 57.431
+Renegociação de contas a receber 9.232 10.626
+Clientes - acordos judiciais 25 90
+Provisão por ajuste de competência 14.640 12.880
+(–) Contas a receber de clientes em perdas (26.985) (25.164)
+(–) Provisão para créditos de liquidação duvidosa (10.385) (12.082)
+Contas a receber de clientes - circulante 49.004 43.781
+Não Circulante
+Renegociação de contas a receber 3.757 2.277
+Clientes - acordos judiciais – 21
+Contas a receber de clientes - não circulante 3.757 2.298
+Total das contas a receber incluindo
+ perdas e provisão para perdas 52.761 46.079
+O quadro a seguir resume os saldos a receber por vencimentos, exceto provisões e 
+perdas com clientes:
+2019 2018
+Créditos a vencer 43.658 42.150
+Créditos em atraso até 2 meses 7.009 6.277
+Créditos em atraso acima de 2 meses até 4 meses 2.126 2.447
+Créditos em atraso acima de 4 meses até 6 meses 1.480 1.597
+Créditos em atraso acima de 6 meses até 8 meses 1.219 1.227
+Créditos em atraso acima de 8 meses até 10 meses 1.071 1.183
+Créditos em atraso acima de 10 meses 33.589 28.446
+90.152 83.325
+A movimentação da provisão para créditos de liquidação duvidosa e baixas para perdas 
+estão demonstradas a seguir:
+Saldo em 31 de dezembro de 2017 (33.378)
+Provisão para créditos de liquidação duvidosa (2.420)
+Baixa efetiva de títulos vencidos (3.357)
+Reversão de perdas 1.909
+Saldo em 31 de dezembro de 2018 (37.246)
+Provisão para créditos de liquidação duvidosa 1.697
+Baixa efetiva de títulos vencidos (3.702)
+Reversão de perdas 1.881
+Saldo em 31 de dezembro de 2019 (37.370)
+9. ESTOQUES
+2019 2018
+Almoxarifados 11.289 9.471
+11.289 9.471
+A Companhia registra os itens de estoque pelo seu valor líquido dos impostos indiretos 
+(PIS/COFINS) controlando estes impostos em contas especificas de compensação e 
+impostos a pagar.
